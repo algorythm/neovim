@@ -6,9 +6,14 @@ lsp.preset('recommended')
 lsp.ensure_installed({
 	'tsserver',
 	'eslint',
---	'sumneko_lua',
---	'rust_analyzer',
---	'python-language-server'
+	'rust_analyzer',
+	'terraformls',
+	'pylsp',
+	'marksman',
+	'angularls',
+	'bashls',
+	'tailwindcss'
+	--'csharpier',
 })
 
 local cmp = require('cmp')
