@@ -17,6 +17,12 @@ return require('packer').startup(function(use)
 	use { 'nvim-treesitter/playground' }
 	use { 'theprimeagen/harpoon' }
 	use { 'mbbill/undotree' }
+    use {
+        'numToStr/Comment.nvim',
+        config = function()
+            require('Comment').setup()
+        end
+    }
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v2.x',
