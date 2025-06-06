@@ -12,7 +12,8 @@ lsp.ensure_installed({
 	'marksman',
 	'angularls',
 	'bashls',
-	'tailwindcss'
+	'tailwindcss',
+    'html'
 	--'csharpier',
 })
 
